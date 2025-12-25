@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{f00f2d47-4c2a-4673-add9-4a8bdfbe7266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{1f062b5b-b8e2-422e-9473-05bfcdfb0a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\BaseStation">
+      <UniqueIdentifier>{d0c13769-ec59-477d-a9bb-38fad60dd3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Cluster">
+      <UniqueIdentifier>{b54cbe21-09ce-4f10-a20c-6f33403f1c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\District">
+      <UniqueIdentifier>{08f31a06-97cf-43e5-9c16-cf3e7dd402ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\BSCalculatorService">
+      <UniqueIdentifier>{62f731fd-a021-4cef-a949-0f16667d23bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\DataValidator">
+      <UniqueIdentifier>{802917df-4b05-421a-a9ac-defefde0a9ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="BaseStation.cpp">
+      <Filter>Models\BaseStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Cluster.cpp">
+      <Filter>Models\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="BSCalculatorService.cpp">
+      <Filter>Models\BSCalculatorService</Filter>
+    </ClCompile>
+    <ClCompile Include="District.cpp">
+      <Filter>Models\District</Filter>
+    </ClCompile>
+    <ClCompile Include="DataValidator.cpp">
+      <Filter>Models\DataValidator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseStation.h">
+      <Filter>Models\BaseStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Cluster.h">
+      <Filter>Models\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="BSCalculatorService.h">
+      <Filter>Models\BSCalculatorService</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="District.h">
+      <Filter>Models\District</Filter>
+    </ClInclude>
+    <ClInclude Include="DataValidator.h">
+      <Filter>Models\DataValidator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
